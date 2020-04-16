@@ -13,5 +13,7 @@ def swap_elements_from_to (array, index, dest)
   array[dest] = swap
 end
 def swap_elements (array)
-  swap_elements_from_to (array, 2 , 3)
+  index = 2
+  dest = 3
+  swap_elements_from_to (array, index, dest)
 end
