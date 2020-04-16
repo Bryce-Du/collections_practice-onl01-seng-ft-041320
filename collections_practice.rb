@@ -20,5 +20,5 @@ def kesha_maker (array)
   array.each {|element| element[2] = "$"}
 end
 def find_a (array)
-  array.select {|string| string.split.first == "a"}
+  array.select {|string| string.start_with?("a")}
 end
