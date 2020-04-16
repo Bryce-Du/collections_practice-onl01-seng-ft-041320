@@ -20,5 +20,5 @@ def kesha_maker (array)
   array[2] = "$"
 end
 def find_a (array)
-  array.collect {|string| string.first == "a"
+  array.collect {|string| string.first == "a"}
 end
